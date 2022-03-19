@@ -7,7 +7,9 @@ const CoffeeStore = () => {
   return (
     <div>
       Coffee Store Page {router.query.id}
-      <Link href='/'>Back to home</Link>
+      <Link href='/' scroll={true}>
+        Back to home
+      </Link>
     </div>
   );
 };
