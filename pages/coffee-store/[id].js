@@ -10,6 +10,9 @@ const CoffeeStore = () => {
       <Link href='/' scroll={true}>
         Back to home
       </Link>
+      <Link href='/' scroll={true}>
+        Dynamic Page
+      </Link>
     </div>
   );
 };
