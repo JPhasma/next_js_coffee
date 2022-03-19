@@ -1,5 +1,7 @@
+import styles from '../styles/Hello.module.css';
+
 const Hello = () => {
-  return <div>Hell World</div>;
+  return <div className={styles.container}>Hell World</div>;
 };
 
 export default Hello;
